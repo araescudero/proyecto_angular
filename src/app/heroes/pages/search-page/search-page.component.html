@@ -1,0 +1,36 @@
+<div
+  class="flex flex-column p-2"
+  [ngStyle]="{
+    'background-color': '#e8f5e9',
+    padding: '16px',
+    'border-radius': '8px'
+  }"
+>
+  <h3 [ngStyle]="{ color: '#388e3c' }">Buscador de Heroes</h3>
+
+  <mat-form-field
+    appearance="fill"
+    [ngStyle]="{ 'background-color': '#c8e6c9', 'border-radius': '4px' }"
+  >
+    <mat-label
+      [ngStyle]="{
+        color: '#388e3c',
+        'font-weight': 'bold',
+        'font-size': '18px'
+      }"
+      >Buscar Super Heroe</mat-label
+    >
+    <input
+      type="text"
+      matInput
+      [ngStyle]="{ color: '#1b5e20', padding: '8px', 'border-radius': '4px' }"
+    />
+  </mat-form-field>
+
+  <div *ngIf="isLoading" style="margin-top: 16px">Cargando héroes...</div>
+  <div *ngIf="error" style="color: red; margin-top: 16px">{{ error }}</div>
+
+  <ul *ngIf="!isLoading && !error" style="margin-top: 16px">
+    <li *ngFor="let hero of heroes">{{ hero }}</li>
+  </ul>
+</div>

@@ -1,0 +1,75 @@
+<h2 [ngStyle]="{ color: '#388e3c' }">Modificar o Añadir Heroe</h2>
+<mat-divider class="mb-2"></mat-divider>
+
+<div class="grid" [ngStyle]="{ 'background-color': '#a8e6cf' }">
+  <div class="col-12 sm:col-6">
+    <mat-card [ngStyle]="{ 'background-color': '#8BC34A' }">
+      <mat-card-content>
+        <form class="grid" [formGroup]="heroForm" (ngSubmit)="onSubmit()">
+          <mat-form-field class="col-12 sm:col-6" appearance="fill">
+            <mat-label>Nombre Heroe</mat-label>
+            <input matInput type="text" required formControlName="superhero" />
+          </mat-form-field>
+
+          <mat-form-field class="col-12 sm:col-6" appearance="fill">
+            <mat-label>Alter ego</mat-label>
+            <input matInput type="text" required formControlName="alter_ego" />
+          </mat-form-field>
+
+          <mat-form-field class="col-12 sm:col-6" appearance="fill">
+            <mat-label>Primera aparición</mat-label>
+            <input
+              matInput
+              type="text"
+              required
+              formControlName="first_appearance"
+            />
+          </mat-form-field>
+
+          <mat-form-field class="col-12 sm:col-6" appearance="fill">
+            <mat-label>Personaje</mat-label>
+            <input matInput type="text" required formControlName="characters" />
+          </mat-form-field>
+
+          <mat-form-field class="col-12 sm:col-6" appearance="fill">
+            <mat-label>Creador</mat-label>
+            <mat-select required formControlName="publisher">
+              <mat-option
+                *ngFor="let publishe of publishers"
+                [value]="publishe.id"
+                >{{ publishe.desc }}</mat-option
+              >
+            </mat-select>
+          </mat-form-field>
+
+          <mat-form-field class="col-12 sm:col-6" appearance="fill">
+            <mat-label>Imagen alternativa</mat-label>
+            <input matInput type="text" required formControlName="alt_img" />
+          </mat-form-field>
+        </form>
+
+        <div class="flex justify-content-between" style="margin-top: 16px">
+          <button
+            (click)="onDeleteHero()"
+            mat-raised-button
+            class="custom-button-danger"
+          >
+            Eliminar
+          </button>
+          <span class="spacer"></span>
+          <button
+            mat-raised-button
+            class="custom-button-success"
+            (click)="onSubmit()"
+          >
+            Guardar
+          </button>
+        </div>
+      </mat-card-content>
+    </mat-card>
+  </div>
+
+  <mat-card>
+    <img [src]="currentHero | heroImage" alt="" />
+  </mat-card>
+</div>

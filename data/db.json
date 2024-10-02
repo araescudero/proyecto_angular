@@ -1,0 +1,120 @@
+{
+  "users": [
+    {
+      "id": "1",
+      "usuario": "Jane Smith",
+      "email": "jane.smith@example.com"
+    }
+  ],
+  "heroes": [
+    {
+      "id": "marvel-shadow",
+      "superhero": "Batman ",
+      "publisher": "Marvel Comics",
+      "alter_ego": "Kira Yamada",
+      "first_appearance": "Shadow Comics #1",
+      "characters": "Kira Yamada",
+      "alt_img": "https://i.pinimg.com/236x/fe/c1/7c/fec17c6f6314be02307c681e69fb31db.jpg"
+    },
+    {
+      "id": "marvel-phantom",
+      "superhero": "Phantom Star",
+      "publisher": "Marvel Comics",
+      "alter_ego": "Ethan Walker",
+      "first_appearance": "Galaxy Adventures #3",
+      "characters": "Ethan Walker",
+      "alt_img": "https://i0.wp.com/ultimatecomics.com/wp-content/uploads/2013/08/Scan2023-02-22_123144.jpg"
+    },
+    {
+      "id": "dc-quantum",
+      "superhero": "Quantum Storm",
+      "publisher": "DC Comics",
+      "alter_ego": "Lena Harker",
+      "first_appearance": "Quantum Comics #10",
+      "characters": "Lena Harker"
+    },
+    {
+      "id": "dc-nebula",
+      "superhero": "Nebula Ranger",
+      "publisher": "DC Comics",
+      "alter_ego": "Orion Black",
+      "first_appearance": "Cosmic Chronicles #5",
+      "characters": "Orion Black"
+    },
+    {
+      "id": "marvel-pulse",
+      "superhero": "Pulse",
+      "publisher": "Marvel Comics",
+      "alter_ego": "Amara Silva",
+      "first_appearance": "Pulse Comics #12",
+      "characters": "Amara Silva"
+    },
+    {
+      "id": "marvel-glimmer",
+      "superhero": "Glimmer",
+      "publisher": "Marvel Comics",
+      "alter_ego": "Luca Morales",
+      "first_appearance": "Light Warriors #7",
+      "characters": "Luca Morales"
+    },
+    {
+      "id": "dc-ironclad",
+      "superhero": "Ironclad",
+      "publisher": "DC Comics",
+      "alter_ego": "Victor Steel",
+      "first_appearance": "Iron Comics #4",
+      "characters": "Victor Steel"
+    },
+    {
+      "id": "marvel-tempest",
+      "superhero": "Tempest",
+      "publisher": "Marvel Comics",
+      "alter_ego": "Fiona Drake",
+      "first_appearance": "Storm Warriors #6",
+      "characters": "Fiona Drake"
+    },
+    {
+      "id": "dc-sentinel",
+      "superhero": "Sentinel",
+      "publisher": "DC Comics",
+      "alter_ego": "Jasper Cole",
+      "first_appearance": "Sentinel Comics #2",
+      "characters": "Jasper Cole"
+    },
+    {
+      "id": "marvel-phantomstrike",
+      "superhero": "Phantom Strike",
+      "publisher": "Marvel Comics",
+      "alter_ego": "Maya Brooks",
+      "first_appearance": "Shadow Warriors #9",
+      "characters": "Maya Brooks"
+    },
+    {
+      "id": "",
+      "superhero": "superman",
+      "publisher": "DC Comics",
+      "alter_ego": "Clark kent",
+      "first_appearance": "Dc comics 1",
+      "characters": "superman",
+      "alt_img": "https://sm.ign.com/t/ign_es/screenshot/default/publicity-photo-superman-the-movie-20409106-1054-1_8zn8.1280.jpg"
+    },
+    {
+      "id": "",
+      "superhero": "fantasma 2",
+      "publisher": "DC Comics",
+      "alter_ego": "fantasma 2",
+      "first_appearance": "cd comics 3",
+      "characters": "fantasta 2",
+      "alt_img": "https://static.wikia.nocookie.net/marvel_dc/images/4/4a/Phantom_Stranger_05.jpg"
+    },
+    {
+      "id": "",
+      "superhero": "Mujer Maravilla",
+      "publisher": "Marvel Comics",
+      "alter_ego": "Super Mujer",
+      "first_appearance": "prueba",
+      "characters": "prueba",
+      "alt_img": "https://www.lanacion.com.ar/resizer/v2/la-inteligencia-artificial-genero-algunas-7P36CDRIIJH5HH4ERTMGDFIXPE.jpg?auth=401963cf7174f4cc6133ed22c02c43ddefa89231815b03193225f1eb89ba040f&width=880&height=586&quality=70&smart=true"
+    }
+  ]
+}
