@@ -1,6 +1,4 @@
 
-Aquí tienes el README.md actualizado con títulos y emojis para hacerlo más atractivo:
-
 🚀 Proyecto Angular
 Este proyecto fue realizado como parte del Curso de Angular dictado por la Universidad Tecnológica Nacional (UTN). A lo largo de las clases, hemos aprendido a desarrollar aplicaciones web modernas utilizando el framework Angular, y este proyecto representa la aplicación de esos conocimientos en un entorno práctico.
 
